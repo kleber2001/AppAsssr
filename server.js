@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 
 // conectar atlas
-mongoose.connect("mongodb+srv://mibasededatos:6lOAmdx56J81HWjH@clustermiapp.fjzc0.mongodb.net/MiAppDB", {useNewUrlParser: true});
+mongoose.connect("mongodb+srv://kgnunez:9yrAHTDOLmFyaYmY@cluster0.kesacsi.mongodb.net/connection_ssh?retryWrites=true&w=majority", {useNewUrlParser: true});
 
 
 //Base de datos
